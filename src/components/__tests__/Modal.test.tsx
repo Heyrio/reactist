@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import { shallow, mount } from 'enzyme'
 import toJson from 'enzyme-to-json'
 
-import Modal from '../Modal'
+import { default as Modal } from '../Modal'
 import type { Modal as ModalType } from '../Modal'
 import Button from '../Button' // for more descriptive snapshots
 
